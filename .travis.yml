@@ -1,2 +1,10 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: grBAiJ9KTj15vxsqzodLx9XD+X2E7BlWqlpHPwBNE0nyVwF6XhKoaMDtaD68N5uilZ1YkJLawsH6E215eVxLVl1jK6VW+4JStVgwvgRcA3T+Lg9gbT3C1ZAvra8c+Oj3LWWbvj94wlPRAu8GHiEbVk2XjZslnxgACigMLwpGaxU2X9cHwAVwEaZwM3DYTaS2a3pWHS1pIa7+7EraMssfBKmR45Bz5b2kZBhT3t86G1U7mpwIpX0fV3Me+ox3rovy5dYXSuPoHgGfPog63p1jql/EOmpJkbPfNmTyJZimF8g+BM4dmsZbbQ077K35EwUCS69+78hPJujV5sc0LeL3YCfpPMs75yGCmL5wJrxewTlg+lpmwq9lraXIwUeehwknLIY1nGVr0DrjOSJfhOT17ygCGiLDzd8KYCKS1oUsTvFQ2tQuJNZT+mGdouLiQCQpKf+tHBcSrbJFgcscjFrd225YV7uggZYDlMFwBs0+TGc5D1u3TSWm0k8LXG7xebsyh+RFxFQaSzU3/45w826QsjPoaqHd2guJbN4wvXsrPYYdNko4ST7vKzM20fbMc5H9OYAyr0qhcABUVpWCqQ/vDb8KLaEcLJqfurSErX22cseb/w3PxEinhvnxywywa3Iia1/fLVFceBJqPwFTEsAffXcWfF2+yo976d4WatWqz6s=
+  app: tranquil-earth-13557
+  on:
+    repo: bdcrews/node-shopping-list-integration-tests
+    branch: tests-for-recipes
